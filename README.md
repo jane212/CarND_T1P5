@@ -214,9 +214,9 @@ The codes of the described function can be found by searching `def find_cars(sel
 
 ---
 
-###Discussion
+### Discussion
 
-####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 1. This project used computer vision techniques and some of those techniques are sensitive to the hyperparameter selected. The searching windows are restricted to the specific area where the cars are suppose to be in the project video. The area should be able to generalized well to other videos but if the view and layout of the road are significally different from the project video the searhcing schema could fail.
 
